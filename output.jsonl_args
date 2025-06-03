@@ -1,0 +1,18 @@
+{
+    "input_file": "generated_input.jsonl",
+    "output_file": "output.jsonl",
+    "claim_field": "claim",
+    "context_field": null,
+    "model": "TinyLlama/TinyLlama_v1.1",
+    "temperature_qgen": 0.7,
+    "num_rounds_qgen": 2,
+    "hallucinate_evidence": false,
+    "max_search_results_per_query": 5,
+    "max_sentences_per_passage": 4,
+    "sliding_distance": 1,
+    "max_passages_per_search_result": 1,
+    "max_evidences_per_question": 1,
+    "max_edit_ratio": 100,
+    "resume": false,
+    "verbose": false
+}
